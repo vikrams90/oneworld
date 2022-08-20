@@ -1,0 +1,29 @@
+  .hm{
+    background-color: #010000ec;
+    left: 0px;
+  }
+.menu li{
+    list-style-type: none;
+    display: inline;
+}
+.menu a:link, a:visited{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 0px;
+    display: inline-block; 
+}
+.menu a:hover, a:active {
+    background-color: black;
+    color: white
+}
+.navh li{
+    list-style-type: none;
+}
+.navh #a:link, #a:visited{
+    color: black;  
+}
+.navh #a:hover, #a:active {
+    color: black;
+}
