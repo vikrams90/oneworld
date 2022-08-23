@@ -20,10 +20,12 @@
     color: white
 }
 .navh{
+    width: 150px;
+    height: 1920px;;
     background-color: aquamarine;
     color: black;
-    display: block;
-    inline-size: 10px 120px;
+    display: flex;
+
 }
 .navh li{
     list-style-type: none;
