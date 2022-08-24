@@ -1,0 +1,67 @@
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+.navbar{
+background-color: #2F4F4F;
+display: flex;
+flex-direction: row;
+padding: 10px;
+margin: auto;
+position: sticky;
+top: 0px;
+
+}
+.navr{
+display: flex;
+flex-direction: row;
+    width: 50%;
+
+}
+.navl{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: right;
+        
+}
+.nav{
+text-decoration: none;
+color: aliceblue;
+padding: 5px;
+font-size: 20px;
+}
+#logo{
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 10%;
+}
+.aim{
+margin-top: 10px;
+padding: 10px;
+text-align: left;   
+}
+.bigheading{
+    margin: 0px;
+    font-size: clamp(40px, 8vw, 80px);
+    color: springgreen;
+}
+.desc{
+    color: aliceblue;
+    font-size: x-large;
+}
+.intro{
+
+}
+.bg{
+
+}
+.navsocial{
+
+}
+body{
+    background-color: #2F4F4F;
+}
