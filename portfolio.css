@@ -1,67 +1,148 @@
-*, ::before, ::after {
+*,
+::before,
+::after {
     box-sizing: inherit;
 }
-.navbar{
-background-color: #2F4F4F;
-display: flex;
-flex-direction: row;
-padding: 10px;
-margin: auto;
-position: sticky;
-top: 0px;
-
+/* body design and color */
+body {
+    background-color: #2F4F4F;
 }
-.navr{
-display: flex;
-flex-direction: row;
-    width: 50%;
+/* body design end */
 
+/* navigation design */
+.navigation{
+    position: fixed;
 }
-.navl{
+
+.navbar {
+    background-color: #2F4F4F;
     display: flex;
     flex-direction: row;
-    width: 50%;
-    justify-content: right;
-        
+    padding: 10px;
+    margin: auto;
+    top: 0px;
 }
-.nav{
-text-decoration: none;
-color: aliceblue;
-padding: 5px;
-font-size: 20px;
-}
-#logo{
 
+.navr {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    position: fixed;
+    top: 20px;
 }
-.main{
+
+.navl {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: right;
+}
+
+.nav {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#logo {}
+/* navigation design ends */
+
+/* social links */
+.navsocial {
+    position: fixed;
+    bottom: 0px;
+    width: 40px;
+    z-index: 5;
+}
+
+.social {
     display: flex;
     flex-direction: column;
-    width: 80%;
-    margin: 10%;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
-.aim{
-margin-top: 10px;
-padding: 10px;
-text-align: left;   
+
+.slinks {
+    padding-top: 5px;
 }
-.bigheading{
+
+.links img {
+    width: 20px;
+    height: 20px;
+}
+
+#line {
+    height: 120px;
+}
+/* social links designing ends */
+
+/* right side mail design */
+.outermail {
+    position: fixed;
+    bottom: 0;
+    right: 5px;
+    width: 40px;
+    z-index: 5;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+}
+
+.emtext {
+    writing-mode: vertical-rl;
+    text-decoration: none;
+    color: aliceblue;
+}
+/* right side email design ends */
+
+/* content design */
+/* section common designs */
+.main,
+.secabt,
+.secprojct {
+    display: flex;
+
+    justify-content: center;
+
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 0%;
+}
+
+.aim,
+.about,
+.project {
+    padding-left: 15vh;
+    text-align: left;
+}
+
+.bigheading {
     margin: 0px;
     font-size: clamp(40px, 8vw, 80px);
     color: springgreen;
 }
-.desc{
+
+.desc {
     color: aliceblue;
     font-size: x-large;
 }
-.intro{
+/* content design ends */
 
-}
-.bg{
 
-}
-.navsocial{
+/* yet to be designed */
+.intro {}
 
-}
-body{
-    background-color: #2F4F4F;
-}
+.bg {}
+
+
+
+
